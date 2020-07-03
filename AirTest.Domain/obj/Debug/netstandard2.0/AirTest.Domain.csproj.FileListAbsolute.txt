@@ -1,0 +1,12 @@
+C:\Users\willian\source\repos\AirTest\AirTest.Domain\bin\Debug\netstandard2.0\AirTest.Domain.deps.json
+C:\Users\willian\source\repos\AirTest\AirTest.Domain\bin\Debug\netstandard2.0\AirTest.Domain.dll
+C:\Users\willian\source\repos\AirTest\AirTest.Domain\bin\Debug\netstandard2.0\AirTest.Domain.pdb
+C:\Users\willian\source\repos\AirTest\AirTest.Domain\obj\Debug\netstandard2.0\AirTest.Domain.csproj.CoreCompileInputs.cache
+C:\Users\willian\source\repos\AirTest\AirTest.Domain\obj\Debug\netstandard2.0\AirTest.Domain.AssemblyInfoInputs.cache
+C:\Users\willian\source\repos\AirTest\AirTest.Domain\obj\Debug\netstandard2.0\AirTest.Domain.AssemblyInfo.cs
+C:\Users\willian\source\repos\AirTest\AirTest.Domain\obj\Debug\netstandard2.0\AirTest.Domain.dll
+C:\Users\willian\source\repos\AirTest\AirTest.Domain\obj\Debug\netstandard2.0\AirTest.Domain.pdb
+C:\Users\willian\source\repos\AirTest\AirTest.Domain\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.dll
+C:\Users\willian\source\repos\AirTest\AirTest.Domain\bin\Debug\netstandard2.0\System.ComponentModel.Annotations.xml
+C:\Users\willian\source\repos\AirTest\AirTest.Domain\obj\Debug\netstandard2.0\AirTest.Domain.csproj.CopyComplete
+C:\Users\willian\source\repos\AirTest\AirTest.Domain\obj\Debug\netstandard2.0\AirTest.Domain.csprojAssemblyReference.cache
