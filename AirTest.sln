@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirTest.Domain", "AirTest.Domain\AirTest.Domain.csproj", "{04C2A7E6-F50F-4BAB-9D73-CBCFA8FF7AD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirTest.Domain", "AirTest.Domain\AirTest.Domain.csproj", "{04C2A7E6-F50F-4BAB-9D73-CBCFA8FF7AD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirTest.Api", "AirTest.Api\AirTest.Api.csproj", "{E73E282C-CBA7-4AF5-8D09-0502724F6B65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirTest.Api", "AirTest.Api\AirTest.Api.csproj", "{E73E282C-CBA7-4AF5-8D09-0502724F6B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirTest.Repository", "AirTest.Repository\AirTest.Repository.csproj", "{C9CDE599-8A64-49C1-BEF9-F69FC15F944B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirTest.Repository", "AirTest.Repository\AirTest.Repository.csproj", "{C9CDE599-8A64-49C1-BEF9-F69FC15F944B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -17,7 +17,7 @@ namespace AirTest.Api.Controllers
         {
             _clienteService = clienteService;
         }
-        // GET api/values
+
         [HttpGet]
         public ActionResult<IEnumerable<Cliente>> Get()
         {
@@ -28,66 +28,71 @@ namespace AirTest.Api.Controllers
             }
             catch (Exception ex)
             {
+                //todo: log
                 return BadRequest(ex.Message);
             }
         }
-
-        // GET api/values/5
+        
         [HttpGet("{id}")]
-        public ActionResult<Cliente> Get(Guid id)
+        public ActionResult<Cliente> Get(string id)
         {
             try
             {
-                Cliente cliente = _clienteService.GetCliente(id);
+                Guid guid = Guid.Parse(id);
+                Cliente cliente = _clienteService.GetCliente(guid);
                 return cliente;
             }
             catch (Exception ex)
             {
+                //todo: log
                 return BadRequest(ex.Message);
             }
         }
-
-        // POST api/values
+        
         [HttpPost]
         public void Post([FromBody] Cliente cliente)
         {
             try
             {
+                cliente.Id = Guid.NewGuid();
                 _clienteService.AddCliente(cliente);
             }
             catch (Exception ex)
             {
+                //todo: log
                 BadRequest(ex.Message);
             }
         }
-
-        // PUT api/values/5
+        
         [HttpPut("{id}")]
-        public void Put(Guid id, [FromBody] Cliente cliente)
+        public void Put(string id, [FromBody] Cliente cliente)
         {
             try
             {
-                Cliente cliUpdate = _clienteService.GetCliente(id);
+                Guid guid = Guid.Parse(id);
+                Cliente cliUpdate = _clienteService.GetCliente(guid);
                 cliUpdate.Idade = cliente.Idade;
                 cliUpdate.Nome = cliente.Nome;
                 _clienteService.updateCliente(cliUpdate);
             }
             catch (Exception ex)
             {
+                //todo: log
                 BadRequest(ex.Message);
             }
         }
-
-        // DELETE api/values/5
+        
         [HttpDelete("{id}")]
-        public void Delete(Guid id)
+        public void Delete(string id)
         {
             try
             {
-                _clienteService.deleteCliente(id);
+                Guid guid = Guid.Parse(id);
+                _clienteService.deleteCliente(guid);
             }
             catch (Exception ex)
             {
+                //todo: log
                 BadRequest(ex.Message);
             }
         }
